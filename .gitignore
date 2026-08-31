@@ -1,0 +1,8 @@
+node_modules
+build
+.svelte-kit
+.DS_Store
+*.log
+src/lib/config/events.generated.ts
+supabase.dev.ts
+*.zip
