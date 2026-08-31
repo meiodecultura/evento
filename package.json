@@ -1,0 +1,28 @@
+{
+  "name": "meiodecultura",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/build-events.mjs",
+    "dev": "vite dev",
+    "prebuild": "node scripts/build-events.mjs",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare": "node scripts/build-events.mjs && svelte-kit sync || echo ''",
+    "precheck": "node scripts/build-events.mjs",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "eventos": "node scripts/build-events.mjs"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.57.0",
+    "@sveltejs/vite-plugin-svelte": "^7.0.0",
+    "js-yaml": "^5.4.1",
+    "papaparse": "^5.7.0",
+    "svelte": "^5.55.2",
+    "svelte-check": "^4.4.6",
+    "typescript": "^5.7.3",
+    "vite": "^8.0.7"
+  }
+}

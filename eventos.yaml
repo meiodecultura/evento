@@ -1,0 +1,73 @@
+# =============================================================================
+# EVENTOS DO APP "MEIO DE CULTURA — FOTO PERSONALIZADA"
+# =============================================================================
+#
+# Este arquivo controla os textos, perguntas e logo de cada evento. Não é
+# preciso saber programar para editá-lo — só seguir o padrão abaixo.
+#
+# COMO EDITAR:
+#   - Use espaços para identação (nunca Tab). Cada nível fica 2 espaços mais
+#     à direita que o de cima. Se copiar e colar um bloco inteiro, os espaços
+#     vêm junto — não precisa recontar.
+#   - Textos com acento, emoji ou dois-pontos (:) devem ficar entre aspas,
+#     tipo "Olá, bem-vindo(a)!". Na dúvida, sempre coloque aspas.
+#   - Depois de editar e salvar (ou fazer commit no GitHub), o site publica
+#     sozinho em alguns minutos. Instruções completas em usando.md.
+#
+# CRIANDO UM EVENTO NOVO:
+#   Copie um bloco inteiro (de "demo:" até a linha antes do próximo evento),
+#   cole abaixo, e troque o nome do evento (a palavra antes dos dois-pontos —
+#   é ela que vira o endereço do link, tipo seusite.com/festa-junina/) e os
+#   textos/perguntas.
+#
+# =============================================================================
+
+demo:
+  nomeDoEvento: "Meio Day"
+  tituloBoasVindas: "Olá, bem-vindo(a) ao Meio Day"
+  subtituloBoasVindas: "Vamos criar a sua foto personalizada do evento."
+  textoBotao: "Gere sua foto personalizada"
+  logo: "/logos/default.svg"
+  perguntas:
+    - pergunta: "Antes de tirar a foto, responda pra gente: como você está se sentindo hoje?"
+      opcoes:
+        - texto: "Animado(a)"
+          emoji: "🤩"
+        - texto: "Feliz"
+          emoji: "😄"
+        - texto: "Tranquilo(a)"
+          emoji: "😌"
+        - texto: "Cansado(a)"
+          emoji: "😴"
+        - texto: "Ansioso(a)"
+          emoji: "😬"
+        - texto: "Curioso(a)"
+          emoji: "🤔"
+
+tresminutos:
+  nomeDoEvento: "3 Minutos e Meio"
+  tituloBoasVindas: "Olá, esse é o 3 Minutos e Meio do Meio de Cultura"
+  subtituloBoasVindas: "Vamos criar a sua foto personalizada do evento!"
+  textoBotao: "Gere sua foto personalizada"
+  logo: "/logos/meio-logo.png"
+  perguntas:
+    - pergunta: "Antes de tirar a foto, responda pra gente: como você está se sentindo hoje?"
+      opcoes:
+        - texto: "Animado(a)"
+          emoji: "🤩"
+        - texto: "Feliz"
+          emoji: "😄"
+        - texto: "Tranquilo(a)"
+          emoji: "😌"
+        - texto: "Cansado(a)"
+          emoji: "😴"
+        - texto: "Ansioso(a)"
+          emoji: "😬"
+        - texto: "Precisando de um amigo"
+          emoji: "😔"
+    - pergunta: "Qual o seu curso?"
+      opcoes:
+        - texto: "Biologia"
+          emoji: "🌎"
+        - texto: "Engenharia de Produção"
+          emoji: "🤖"
